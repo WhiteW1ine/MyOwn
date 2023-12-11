@@ -1,0 +1,19 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+}
+
+.shortinfo {
+    flex: 1;
+}
+
+.skills {
+    flex: 1;
+}
+
+.column {
+    padding: 1vh;
+    background-color: white;
+    border-radius:84.1px;
+}

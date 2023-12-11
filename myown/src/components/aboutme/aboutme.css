@@ -1,0 +1,7 @@
+.about-me {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 50vh;
+    gap: 1vh;
+}
