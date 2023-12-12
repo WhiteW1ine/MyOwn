@@ -1,0 +1,8 @@
+.education-card {
+    display: flex;
+    flex: 1;
+    height: 60vh;
+    margin: 5vh;
+    outline: 2px solid #99FC29;
+    border-radius: 37px;
+  }

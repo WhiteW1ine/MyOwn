@@ -1,9 +1,11 @@
 .my-education {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .cards {
     display: flex;
     flex-direction: row;
+    width: 150vh;
 }
