@@ -1,0 +1,27 @@
+.projects {
+    display: flex;
+    flex-direction: row;
+    
+    width: 150vh;
+    height: 75vh;
+}
+
+.large_and_small {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid_projects {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
