@@ -1,7 +1,20 @@
 .button {
-    color: white;
-    font-family: 'Unbounded', Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 55%;
     padding-left: 1vh;
     padding-right: 1vh;
-}
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 0;
+    margin: 5vh;
+  }
+  
+  .button:hover {
+    color: rgb(85, 85, 85);
+    border-bottom: solid rgb(40, 104, 20);
+  }
+
+  .button:focus {
+    color: rgb(85, 85, 85);
+  }

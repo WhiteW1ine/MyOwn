@@ -1,9 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './button.css'; 
 
 const Button = ({ text }) => {
+
+  const handleClick = () => {
+  };
+
+
   return (
-    <div className='button'>{text}</div>
+    <button onClick={handleClick} className='button'>{text}</button>
   );
 };
 

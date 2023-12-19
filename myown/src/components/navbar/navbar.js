@@ -1,4 +1,4 @@
-import './navbar.css'; // Assuming you have a CSS file for styling
+import './navbar.css'; 
 import Button from './button';
 import Logo from './logo';
 
