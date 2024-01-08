@@ -33,5 +33,5 @@
   }
 
   .button:focus::after {
-    background-color: green; /* Change to the desired green color */
+    background-color: #99FC29; /* Change to the desired green color */
   }

@@ -1,8 +1,28 @@
 .education-card {
     display: flex;
+    flex-direction: column;
     flex: 1;
     height: 60vh;
     margin: 5vh;
     outline: 2px solid #99FC29;
     border-radius: 37px;
+    transition: transform 0.5s ease;
   }
+
+.education-card:hover {
+  transform: translateY(-3vh);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  margin-left: 2vh;
+  margin-top: 4vh;
+
+}
+
+.card-header img {
+  width: 20%;
+  height: 90%;
+}
