@@ -15,9 +15,11 @@ const Contacts = () => {
         <h3>Warsaw, Poland</h3>
       </div>
       <div className='links'>
-        <Links></Links>
-        <Links></Links>
-        <Links></Links>
+        <Links logoSrc={'/mail_icon.png'}></Links>
+        <Links logoSrc={'/linkedin_icon.png'}></Links>
+        <Links logoSrc={'/facebook_icon.png'}></Links>
+        <Links logoSrc={'/whatsapp_icon.png'}></Links>
+
       </div>
     </div>
   );
