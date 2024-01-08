@@ -7,13 +7,15 @@
     outline: 2px solid #99FC29;
     border-radius: 37px;
     transition: transform 0.5s ease;
+    font-family: 'Unbounded', sans-serif;
+    color: white;
   }
 
 .education-card:hover {
   transform: translateY(-3vh);
 }
 
-.card-header {
+.card-header  {
   display: flex;
   flex-direction: row;
   height: 15%;
@@ -22,7 +24,35 @@
 
 }
 
+.card-header > .row {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-header > .row > p {
+  font-size: 50%;
+  margin: 0;
+  margin-left: 2vh;
+}
+
+
 .card-header img {
   width: 20%;
   height: 90%;
+}
+
+.school-name {
+  color: #99FC29;
+}
+
+.card-content {
+  height: 75%;
+}
+
+.years {
+  color: #99FC29;
+  height: 10%;
+  align-self: center;
+  font-size: 80%;
 }

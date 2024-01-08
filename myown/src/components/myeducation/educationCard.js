@@ -6,14 +6,16 @@ const EducationCard = ({ schoolName, logoSrc, description, years }) => {
     <div className="education-card">
       <div className="card-header">
         <img src={logoSrc} alt={`Logo`} className="logo" />
-        <p>{schoolName}</p>
-        <p>{description}</p>
+        <div className='row'>
+          <p className='school-name'>{schoolName}</p>
+          <p>{description}</p>
+        </div>
       </div>
       <div className='card-content'>
         
       </div>
       <div className='years'>
-        <h2>{years}</h2>
+        {years}
       </div>
     </div>
   );

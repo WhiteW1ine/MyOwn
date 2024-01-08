@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
 import './button.css'; 
 
 const Button = ({ text }) => {
+  const handleClick = (e) => {
+    e.stopPropagation();
 
-  const handleClick = () => {
   };
 
   return (
-    <button onClick={handleClick} className='button'>{text}</button>
+    <button onClick={handleClick} className='button'>
+      {text}
+    </button>
   );
 };
 
