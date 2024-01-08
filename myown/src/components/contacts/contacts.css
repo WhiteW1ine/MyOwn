@@ -8,7 +8,6 @@
 }
 
 .phone_and_mail {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,10 +15,10 @@
 }
 
 .phone_and_mail h2 {
-    margin: 0;
+    margin: 0.3vh;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 .location {
@@ -27,22 +26,31 @@
     flex-direction: column;
     align-items: center;
     margin: 2vh;
+    margin-top: 0;
 }
 
 .location h3 {
-    margin: 0;
+    margin: 0.3vh;
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 2vh;
 }
 
 .links {
+    margin-top: 2vh;
     display: flex;
     flex-direction: row;
+    width: 40%;
+    cursor: pointer;
 }
 
 .link {
-    padding: 1vh;
+    padding: 0.5vh;
+    width: 100%;
+}
+
+.pic {
+    width: 100%;
 }
 
 h1 {

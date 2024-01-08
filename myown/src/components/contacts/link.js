@@ -1,11 +1,11 @@
 import React from 'react';
-import './contacts.css'
+import './contacts.css';
 
-const Link = ({logoSrc}) => {
+const Link = ({ logoSrc, linkUrl }) => {
   return (
-    <div className="link">
-        <img src={logoSrc} alt={`Logo`} className="pic" />        
-    </div>
+    <a href={linkUrl} target="_blank" rel="noopener noreferrer" className="link">
+      <img src={logoSrc} alt={`Logo`} className="pic" />
+    </a>
   );
 };
 

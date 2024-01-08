@@ -6,7 +6,6 @@ const Button = ({ text }) => {
   const handleClick = () => {
   };
 
-
   return (
     <button onClick={handleClick} className='button'>{text}</button>
   );
