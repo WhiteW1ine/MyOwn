@@ -5,11 +5,67 @@
 }
 
 .shortinfo {
-    flex: 1;
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
 }
 
+.shortinfo .photo {
+    height: 100%;
+    width: 100%;
+}
+
+.photo > img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #1C1B1B;
+    border-radius:84.1px;
+}
+
+.language {
+    display: flex;
+}
+
+.languages > h3 {
+    color: #99FC29;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    align-self: center;
+}
+
+.name {
+    width: 50%;
+    padding: 3%;
+    padding-left: 15%;
+    margin: 0;
+    color: white;
+    font-size: 2vh;
+    align-self: flex-start;
+}
+
+.level {
+    width: 50%;
+    padding: 3%;
+    margin: 0;
+    color: white;
+    font-size: 2vh;
+    align-self: flex-end;
+}
+
+
+
+
 .skills {
-    flex: 1;
+    flex: 0.7;
 }
 
 .column {

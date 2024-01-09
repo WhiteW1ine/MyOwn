@@ -4,7 +4,7 @@ import "./columns.css"
 const DescriptionColumn = () => {
   return (
     <div className="description column">
-        
+      
     </div>
   );
 };
