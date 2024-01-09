@@ -1,7 +1,7 @@
 import React from 'react';
 import './educationCard.css';
 
-const EducationCard = ({ schoolName, logoSrc, description, years }) => {
+const EducationCard = ({ schoolName, logoSrc, description, years, program_description }) => {
   return (
     <div className="education-card">
       <div className="card-header">
@@ -12,7 +12,7 @@ const EducationCard = ({ schoolName, logoSrc, description, years }) => {
         </div>
       </div>
       <div className='card-content'>
-        
+        <div dangerouslySetInnerHTML={{ __html: program_description }} />
       </div>
       <div className='years'>
         {years}
