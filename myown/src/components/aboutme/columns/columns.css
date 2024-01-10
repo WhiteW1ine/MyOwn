@@ -65,7 +65,29 @@
 
 
 .skills {
+    display: flex;
+    align-items: center;
     flex: 0.7;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    border-radius:84.1px;
+    background-color: #e5f9c5;
+    
+}
+
+.form > .header {
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+.form > p {
+    margin: 0;
+    font-size: 1vh;
 }
 
 .column {
