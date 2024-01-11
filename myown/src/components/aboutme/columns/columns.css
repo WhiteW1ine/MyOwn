@@ -55,7 +55,7 @@
     flex-direction: column;
     height: 100%;
     background-color: #1C1B1B;
-    border-radius:84.1px;
+    border-radius: 9vh;
 }
 
 .language {
@@ -102,7 +102,7 @@
     flex-direction: column;
     height: 90%;
     width: 100%;
-    border-radius:84.1px;
+    border-radius: 9vh;
     background-color: #e5f9c5;
     align-items: center;
     color: black;
@@ -128,5 +128,5 @@
 .column {
     padding: 1vh;
     background-color: white;
-    border-radius:84.1px;
+    border-radius: 9vh;
 }
