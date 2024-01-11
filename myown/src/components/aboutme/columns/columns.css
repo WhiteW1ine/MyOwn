@@ -1,4 +1,4 @@
-.description {
+.welcome {
     display: flex;
     flex-direction: column;
     flex: 1.5;
@@ -77,17 +77,25 @@
     width: 100%;
     border-radius:84.1px;
     background-color: #e5f9c5;
-    
-}
-
-.form > .header {
-    margin: 0;
-    font-size: 2.5vh;
+    align-items: center;
+    color: black;
 }
 
 .form > p {
     margin: 0;
-    font-size: 1vh;
+    font-size: 1.5vh;
+    padding: 4%;
+    padding-left: 5%;
+    align-self: flex-start;
+}
+
+.form > .header {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 13%;
+    margin-left: 5%;
+    font-size: 3vh;
+    align-self: center;
 }
 
 .column {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './aboutme.css';
-import DescriptionColumn from './columns/DescriptionColumn';
+import WelcomeColumn from './columns/WelcomeColumn';
 import ShortInfoColumn from './columns/shortinfocolumn';
 import SkillsColumn from './columns/SkillsColumns';
 
@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div className="about-me">
         <ShortInfoColumn></ShortInfoColumn>
-        <DescriptionColumn></DescriptionColumn>
+        <WelcomeColumn></WelcomeColumn>
         <SkillsColumn></SkillsColumn>
     </div>
   );

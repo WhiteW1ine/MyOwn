@@ -4,7 +4,7 @@ const SkillsColumn = () => {
   return (
     <div className="skills column">
       <div className='form'>
-        <p>programming languages and frameworks</p>
+        <p className='header'>programming languages and frameworks</p>
         <p>Java(Spring, JavaFX)</p>
         <p>JS(Vue, React, Node)</p>
         <p>C#(.NET, Unity)</p>
