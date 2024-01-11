@@ -6,7 +6,7 @@ import SkillsColumn from './columns/SkillsColumns';
 
 const AboutMe = () => {
   return (
-    <div className="about-me">
+    <div className="about-me" id='aboutme'>
         <ShortInfoColumn></ShortInfoColumn>
         <WelcomeColumn></WelcomeColumn>
         <SkillsColumn></SkillsColumn>

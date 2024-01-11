@@ -4,7 +4,7 @@ import Links from './link.js';
 
 const Contacts = () => {
   return (
-    <div className="contacts">
+    <div className="contacts" id='contacts'>
       <h1>Contact me:</h1>
       <div className='phone_and_mail'>
         <h2>+46704075861</h2>

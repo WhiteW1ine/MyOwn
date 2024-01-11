@@ -6,7 +6,7 @@ import SmallProjectCard from './Cards/smallProjectCard';
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id='projects'>
         <div className='large_and_small'>
             <LargeProjectCard></LargeProjectCard>
             <div className='row'>

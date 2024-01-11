@@ -7,7 +7,7 @@ const ShortInfoColumn = ({}) => {
           <img src='pic.png' alt={`Logo`} className="photo" />
         </div>
         <div className='languages'>
-          <h3>languages</h3>
+          <h3>LANGUAGES</h3>
           <div className='language'>
             <p className='name'>Russian:</p>
             <p className='level'>Native</p>

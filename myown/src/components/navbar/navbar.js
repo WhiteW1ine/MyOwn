@@ -7,9 +7,9 @@ const Navbar = () => {
     <div className='navbar'>
       <Logo imgSrc={"/Logo.png"} altText={"Error"}></Logo>
       <div className='buttons'>
-        <Button text={"About me"}></Button>
-        <Button text={"Works"}></Button>
-        <Button text={"Contacts"}></Button>
+        <Button text={"About me"} targetElementId={'aboutme'}></Button>
+        <Button text={"Works"} targetElementId={'projects'}></Button>
+        <Button text={"Contacts"} targetElementId={'contacts'}></Button>
       </div>
     </div>
   );
