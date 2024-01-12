@@ -24,7 +24,7 @@
     width: auto;
 }
 
-.row > .name {
+.small_project_card > .row > .name {
     display: flex;
     width: auto;
     font-size: auto;
@@ -70,11 +70,11 @@
     margin-top: 10%;
 }
 
-.row > .link {
+.large_project_card > .row > .link {
     margin-left: 30%;
     height: auto;
     width: auto;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-right: 10%;
 }
 
@@ -112,7 +112,8 @@
 }
 
 .mid_project_card > .row {
-    height: 50%;
+    height: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
 }
@@ -140,6 +141,7 @@
     padding: 0;
     margin-left: 10%;
     margin-right: 5%;
+    margin-top: 10%;
 }
 
 .mid_project_card > .row > .link > img {
@@ -149,13 +151,14 @@
 }
 
 .decor {
+    height: 65%;
+    width: auto;
     display: flex;
-    padding: 0;
-    margin-top: 5%;
-    margin-right: 30%;
+    padding-top: 3%;
+    padding-right: 30%;
 }
 
 .decor > img {
-    height: 75%;
+    height: 100%;
     width: auto;
 }
