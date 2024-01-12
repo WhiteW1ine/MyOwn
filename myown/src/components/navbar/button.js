@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import './button.css';
+import IntersectionObserver as observe;
 
 const Button = ({ text, targetElementId }) => {
   const buttonRef = useRef(null);
@@ -13,11 +14,10 @@ const Button = ({ text, targetElementId }) => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          // Set focus on the button when the target element is in the viewport
           buttonRef.current.focus();
         }
       },
-      { threshold: 0.5 } // Adjust the threshold as needed
+      { threshold: 0.5 } //percentage of visibility 
     );
 
     if (targetElement) {
