@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import './button.css';
-import IntersectionObserver as observe;
 
 const Button = ({ text, targetElementId }) => {
   const buttonRef = useRef(null);
