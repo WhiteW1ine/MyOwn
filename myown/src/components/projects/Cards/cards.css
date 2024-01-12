@@ -1,11 +1,53 @@
 .small_project_card {
+    display: flex;
+    flex-direction: column;
     width: 45%;
     height: 90%;
-    background-color: white;
+    background-color: #8f8f8f;
     border-radius: 6vh;
     margin: 1vh;
 }
 
+.small_project_card > .row {
+    margin-top: 5%;
+    height: 40%;
+}
+
+.small_project_card > .row > .decoration {
+    height: 70%;
+    width: auto;
+    padding-right: 7%;
+}
+
+.decoration > img {
+    height: 100%;
+    width: auto;
+}
+
+.row > .name {
+    display: flex;
+    width: auto;
+    font-size: auto;
+    padding: 2%;
+    color: #99FC29;
+    outline: 2px solid #99FC29;
+    border-radius: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_project_card > .link {
+    height: 20%;
+    width: auto;
+    align-self: flex-end;
+    margin-top: 10%;
+    margin-right: 8%;
+}
+
+.small_project_card > .link > img {
+    height: 100%;
+    width: auto;
+}
 
 
 .large_project_card {
@@ -25,17 +67,19 @@
     color: #99FC29;
     font-size: 6vh;
     margin-left: 5%;
-}
-
-.row > .link {
-    height: 100%;
-    width: 100%;
-    padding-left: 32%;
     margin-top: 10%;
 }
 
+.row > .link {
+    margin-left: 30%;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
 .link > img {
-    height: 50%;
+    height: 100%;
     width: auto;
 }
 
@@ -46,20 +90,72 @@
     align-self: flex-end;
     color: black;
     padding: 0;
-    width: 25%;
-    height: 15%;
+    width: auto;
+    padding: 1%;
     margin-top: 3%;
     margin-right: 5%;
     margin-bottom: 5%;
     outline: 2px solid #99FC29;
     color: #99FC29;
     border-radius: 5vh;
+    font-size: auto;
 }
 
 .mid_project_card {
+    display: flex;
+    flex-direction: column;
     width: auto;
-    height: 60%;
+    height: auto;
     border-radius: 5vh;
-    background-color: white;
-    margin: 1vh;
+    background-color: #8f8f8f;
+    margin: 1vh;    
+}
+
+.mid_project_card > .row {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mid_project_card > .name {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 35%;;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #99FC29;
+    outline: 2px solid #99FC29;
+    padding: 0;
+    border-radius: 5vh;
+    font-size: auto;
+    width: auto;
+    padding: 2%;
+}
+
+.mid_project_card > .row > .link {
+    height: 45%;
+    width: auto;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.mid_project_card > .row > .link > img {
+    height: 100%;
+    width: auto;
+
+}
+
+.decor {
+    display: flex;
+    padding: 0;
+    margin-top: 5%;
+    margin-right: 30%;
+}
+
+.decor > img {
+    height: 75%;
+    width: auto;
 }

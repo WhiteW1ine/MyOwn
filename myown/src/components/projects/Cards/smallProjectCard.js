@@ -5,11 +5,13 @@ const SmallProjectCard = ({name, url, img}) => {
   return (
     <div className="small_project_card">
       <div className='row'>
-        <div className='decoration'></div>
+        <div className='decoration'>
+          <img src='filled_ellipse.png'></img>
+        </div>
         <div className='name'>{name}</div>
       </div>
       <a href={url} target="_blank" rel="noopener noreferrer" className="link">
-            <img src={img} alt={`Logo`} className="pic" />
+            <img src={img} alt={`Logo`}/>
       </a>
     </div>
   );
