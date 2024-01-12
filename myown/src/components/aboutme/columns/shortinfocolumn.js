@@ -4,7 +4,7 @@ const ShortInfoColumn = ({}) => {
   return (
     <div className="shortinfo column">
         <div className='photo'>
-          <img src='pic.png' alt={`Logo`} className="photo" />
+          <img src='pic.png' alt={`Logo`} />
         </div>
         <div className='languages'>
           <h3>LANGUAGES</h3>

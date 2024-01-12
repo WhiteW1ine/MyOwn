@@ -35,3 +35,7 @@
   .button:focus::after {
     background-color: #99FC29;
   }
+
+  .button.active {
+    background-color: #99FC29;
+  }
